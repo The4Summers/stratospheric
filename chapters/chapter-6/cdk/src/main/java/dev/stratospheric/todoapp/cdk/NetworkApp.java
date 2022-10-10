@@ -38,6 +38,7 @@ public class NetworkApp {
       awsEnvironment,
       environmentName,
       new Network.NetworkInputParameters(sslCertificateArn));
+//    new Network.NetworkInputParameters(sslCertificateArn));
 
     app.synth();
   }
